@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		463FD98A1A8297CE00D2787B /* HNListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463FD9891A8297CE00D2787B /* HNListTableViewController.swift */; };
+		463FD98E1A82AB2B00D2787B /* HNStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463FD98D1A82AB2B00D2787B /* HNStoryTableViewCell.swift */; };
 		4668CAF61A8266ED006D125B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CAF51A8266ED006D125B /* AppDelegate.swift */; };
-		4668CAF81A8266ED006D125B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CAF71A8266ED006D125B /* ViewController.swift */; };
 		4668CAFB1A8266ED006D125B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4668CAF91A8266ED006D125B /* Main.storyboard */; };
 		4668CAFD1A8266ED006D125B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4668CAFC1A8266ED006D125B /* Images.xcassets */; };
 		4668CB001A8266ED006D125B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4668CAFE1A8266ED006D125B /* LaunchScreen.xib */; };
 		4668CB0C1A8266ED006D125B /* HNReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CB0B1A8266ED006D125B /* HNReaderTests.swift */; };
+		4668CB161A8267C8006D125B /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4668CB151A8267C8006D125B /* Firebase.framework */; };
+		4668CB181A82680B006D125B /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4668CB171A82680B006D125B /* libicucore.dylib */; };
+		4668CB1A1A826819006D125B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4668CB191A826819006D125B /* libc++.dylib */; };
+		4668CB1C1A826822006D125B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4668CB1B1A826822006D125B /* CFNetwork.framework */; };
+		4668CB1E1A82682D006D125B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4668CB1D1A82682D006D125B /* Security.framework */; };
+		4668CB201A826839006D125B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4668CB1F1A826839006D125B /* SystemConfiguration.framework */; };
+		4668CB261A826A44006D125B /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CB251A826A44006D125B /* FirebaseHelper.swift */; };
+		4668CB281A8289EB006D125B /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CB271A8289EB006D125B /* Story.swift */; };
+		4668CB2B1A828F38006D125B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CB2A1A828F38006D125B /* SwiftyJSON.swift */; };
+		468FEE321A8BEEC2005D3C98 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FEE311A8BEEC2005D3C98 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +37,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		463FD9891A8297CE00D2787B /* HNListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNListTableViewController.swift; sourceTree = "<group>"; };
+		463FD98D1A82AB2B00D2787B /* HNStoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNStoryTableViewCell.swift; sourceTree = "<group>"; };
 		4668CAF01A8266ED006D125B /* HNReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4668CAF41A8266ED006D125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4668CAF51A8266ED006D125B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4668CAF71A8266ED006D125B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4668CAFA1A8266ED006D125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4668CAFC1A8266ED006D125B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4668CAFF1A8266ED006D125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4668CB051A8266ED006D125B /* HNReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4668CB0A1A8266ED006D125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4668CB0B1A8266ED006D125B /* HNReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNReaderTests.swift; sourceTree = "<group>"; };
+		4668CB151A8267C8006D125B /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../../../Downloads/Firebase.framework; sourceTree = "<group>"; };
+		4668CB171A82680B006D125B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		4668CB191A826819006D125B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		4668CB1B1A826822006D125B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4668CB1D1A82682D006D125B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4668CB1F1A826839006D125B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4668CB221A8269E4006D125B /* HNReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HNReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		4668CB251A826A44006D125B /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		4668CB271A8289EB006D125B /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		4668CB2A1A828F38006D125B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		468FEE311A8BEEC2005D3C98 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +66,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4668CB201A826839006D125B /* SystemConfiguration.framework in Frameworks */,
+				4668CB1E1A82682D006D125B /* Security.framework in Frameworks */,
+				4668CB1C1A826822006D125B /* CFNetwork.framework in Frameworks */,
+				4668CB1A1A826819006D125B /* libc++.dylib in Frameworks */,
+				4668CB181A82680B006D125B /* libicucore.dylib in Frameworks */,
+				4668CB161A8267C8006D125B /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +88,7 @@
 		4668CAE71A8266ED006D125B = {
 			isa = PBXGroup;
 			children = (
+				4668CB211A8269B1006D125B /* Frameworks */,
 				4668CAF21A8266ED006D125B /* HNReader */,
 				4668CB081A8266ED006D125B /* HNReaderTests */,
 				4668CAF11A8266ED006D125B /* Products */,
@@ -78,11 +108,15 @@
 			isa = PBXGroup;
 			children = (
 				4668CAF51A8266ED006D125B /* AppDelegate.swift */,
-				4668CAF71A8266ED006D125B /* ViewController.swift */,
 				4668CAF91A8266ED006D125B /* Main.storyboard */,
 				4668CAFC1A8266ED006D125B /* Images.xcassets */,
 				4668CAFE1A8266ED006D125B /* LaunchScreen.xib */,
 				4668CAF31A8266ED006D125B /* Supporting Files */,
+				4668CB221A8269E4006D125B /* HNReader-Bridging-Header.h */,
+				4668CB291A8289F3006D125B /* Firebase */,
+				463FD9891A8297CE00D2787B /* HNListTableViewController.swift */,
+				463FD98D1A82AB2B00D2787B /* HNStoryTableViewCell.swift */,
+				468FEE311A8BEEC2005D3C98 /* WebViewController.swift */,
 			);
 			path = HNReader;
 			sourceTree = "<group>";
@@ -110,6 +144,29 @@
 				4668CB0A1A8266ED006D125B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4668CB211A8269B1006D125B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4668CB1F1A826839006D125B /* SystemConfiguration.framework */,
+				4668CB1D1A82682D006D125B /* Security.framework */,
+				4668CB1B1A826822006D125B /* CFNetwork.framework */,
+				4668CB191A826819006D125B /* libc++.dylib */,
+				4668CB171A82680B006D125B /* libicucore.dylib */,
+				4668CB151A8267C8006D125B /* Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4668CB291A8289F3006D125B /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				4668CB251A826A44006D125B /* FirebaseHelper.swift */,
+				4668CB271A8289EB006D125B /* Story.swift */,
+				4668CB2A1A828F38006D125B /* SwiftyJSON.swift */,
+			);
+			name = Firebase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +269,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4668CAF81A8266ED006D125B /* ViewController.swift in Sources */,
+				4668CB261A826A44006D125B /* FirebaseHelper.swift in Sources */,
+				463FD98A1A8297CE00D2787B /* HNListTableViewController.swift in Sources */,
 				4668CAF61A8266ED006D125B /* AppDelegate.swift in Sources */,
+				4668CB2B1A828F38006D125B /* SwiftyJSON.swift in Sources */,
+				468FEE321A8BEEC2005D3C98 /* WebViewController.swift in Sources */,
+				4668CB281A8289EB006D125B /* Story.swift in Sources */,
+				463FD98E1A82AB2B00D2787B /* HNStoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +400,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/boris-prague/Downloads",
+				);
 				INFOPLIST_FILE = HNReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HNReader/HNReader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +418,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/boris-prague/Downloads",
+				);
 				INFOPLIST_FILE = HNReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HNReader/HNReader-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +484,7 @@
 				4668CB111A8266ED006D125B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4668CB121A8266ED006D125B /* Build configuration list for PBXNativeTarget "HNReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +493,7 @@
 				4668CB141A8266ED006D125B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
