@@ -26,7 +26,6 @@
 		4668CB281A8289EB006D125B /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CB271A8289EB006D125B /* Story.swift */; };
 		4668CB2B1A828F38006D125B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CB2A1A828F38006D125B /* SwiftyJSON.swift */; };
 		468FEE321A8BEEC2005D3C98 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FEE311A8BEEC2005D3C98 /* WebViewController.swift */; };
-		468FEE341A8BF555005D3C98 /* Todo.md in Sources */ = {isa = PBXBuildFile; fileRef = 468FEE331A8BF555005D3C98 /* Todo.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,6 @@
 		4668CB271A8289EB006D125B /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		4668CB2A1A828F38006D125B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		468FEE311A8BEEC2005D3C98 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		468FEE331A8BF555005D3C98 /* Todo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Todo.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +119,6 @@
 				463FD9891A8297CE00D2787B /* HNListTableViewController.swift */,
 				463FD98D1A82AB2B00D2787B /* HNStoryTableViewCell.swift */,
 				468FEE311A8BEEC2005D3C98 /* WebViewController.swift */,
-				468FEE331A8BF555005D3C98 /* Todo.md */,
 			);
 			path = HNReader;
 			sourceTree = "<group>";
@@ -284,7 +281,6 @@
 				4668CAF61A8266ED006D125B /* AppDelegate.swift in Sources */,
 				4668CB2B1A828F38006D125B /* SwiftyJSON.swift in Sources */,
 				461B625C1AAA4A7D00A20BED /* Mapper.swift in Sources */,
-				468FEE341A8BF555005D3C98 /* Todo.md in Sources */,
 				468FEE321A8BEEC2005D3C98 /* WebViewController.swift in Sources */,
 				4668CB281A8289EB006D125B /* Story.swift in Sources */,
 				463FD98E1A82AB2B00D2787B /* HNStoryTableViewCell.swift in Sources */,
