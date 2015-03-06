@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461B625C1AAA4A7D00A20BED /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B625B1AAA4A7D00A20BED /* Mapper.swift */; };
+		461B625E1AAA4AB600A20BED /* StoryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B625D1AAA4AB600A20BED /* StoryMapper.swift */; };
 		463FD98A1A8297CE00D2787B /* HNListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463FD9891A8297CE00D2787B /* HNListTableViewController.swift */; };
 		463FD98E1A82AB2B00D2787B /* HNStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463FD98D1A82AB2B00D2787B /* HNStoryTableViewCell.swift */; };
 		4668CAF61A8266ED006D125B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CAF51A8266ED006D125B /* AppDelegate.swift */; };
@@ -24,6 +26,7 @@
 		4668CB281A8289EB006D125B /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CB271A8289EB006D125B /* Story.swift */; };
 		4668CB2B1A828F38006D125B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668CB2A1A828F38006D125B /* SwiftyJSON.swift */; };
 		468FEE321A8BEEC2005D3C98 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FEE311A8BEEC2005D3C98 /* WebViewController.swift */; };
+		468FEE341A8BF555005D3C98 /* Todo.md in Sources */ = {isa = PBXBuildFile; fileRef = 468FEE331A8BF555005D3C98 /* Todo.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		461B625B1AAA4A7D00A20BED /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		461B625D1AAA4AB600A20BED /* StoryMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryMapper.swift; sourceTree = "<group>"; };
 		463FD9891A8297CE00D2787B /* HNListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNListTableViewController.swift; sourceTree = "<group>"; };
 		463FD98D1A82AB2B00D2787B /* HNStoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNStoryTableViewCell.swift; sourceTree = "<group>"; };
 		4668CAF01A8266ED006D125B /* HNReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +64,7 @@
 		4668CB271A8289EB006D125B /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		4668CB2A1A828F38006D125B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		468FEE311A8BEEC2005D3C98 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		468FEE331A8BF555005D3C98 /* Todo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Todo.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,14 +115,13 @@
 			children = (
 				4668CAF51A8266ED006D125B /* AppDelegate.swift */,
 				4668CAF91A8266ED006D125B /* Main.storyboard */,
-				4668CAFC1A8266ED006D125B /* Images.xcassets */,
-				4668CAFE1A8266ED006D125B /* LaunchScreen.xib */,
 				4668CAF31A8266ED006D125B /* Supporting Files */,
 				4668CB221A8269E4006D125B /* HNReader-Bridging-Header.h */,
 				4668CB291A8289F3006D125B /* Firebase */,
 				463FD9891A8297CE00D2787B /* HNListTableViewController.swift */,
 				463FD98D1A82AB2B00D2787B /* HNStoryTableViewCell.swift */,
 				468FEE311A8BEEC2005D3C98 /* WebViewController.swift */,
+				468FEE331A8BF555005D3C98 /* Todo.md */,
 			);
 			path = HNReader;
 			sourceTree = "<group>";
@@ -125,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				4668CAF41A8266ED006D125B /* Info.plist */,
+				4668CAFE1A8266ED006D125B /* LaunchScreen.xib */,
+				4668CAFC1A8266ED006D125B /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,6 +172,8 @@
 				4668CB251A826A44006D125B /* FirebaseHelper.swift */,
 				4668CB271A8289EB006D125B /* Story.swift */,
 				4668CB2A1A828F38006D125B /* SwiftyJSON.swift */,
+				461B625B1AAA4A7D00A20BED /* Mapper.swift */,
+				461B625D1AAA4AB600A20BED /* StoryMapper.swift */,
 			);
 			name = Firebase;
 			sourceTree = "<group>";
@@ -271,8 +280,11 @@
 			files = (
 				4668CB261A826A44006D125B /* FirebaseHelper.swift in Sources */,
 				463FD98A1A8297CE00D2787B /* HNListTableViewController.swift in Sources */,
+				461B625E1AAA4AB600A20BED /* StoryMapper.swift in Sources */,
 				4668CAF61A8266ED006D125B /* AppDelegate.swift in Sources */,
 				4668CB2B1A828F38006D125B /* SwiftyJSON.swift in Sources */,
+				461B625C1AAA4A7D00A20BED /* Mapper.swift in Sources */,
+				468FEE341A8BF555005D3C98 /* Todo.md in Sources */,
 				468FEE321A8BEEC2005D3C98 /* WebViewController.swift in Sources */,
 				4668CB281A8289EB006D125B /* Story.swift in Sources */,
 				463FD98E1A82AB2B00D2787B /* HNStoryTableViewCell.swift in Sources */,

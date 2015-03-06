@@ -37,8 +37,7 @@ class FirebaseHelper {
         let newRoot = root.childByAppendingPath("item/\(id)")
         newRoot.observeSingleEventOfType(FEventType.Value, withBlock: { (snapshot: FDataSnapshot!) in
             let json = JSON(snapshot.value)
-            println(json)
-            let story = Story.mapFromJson(json)
+            let story = StoryMapper().map(json)
             self.delegate?.onRecieveData(story)
         })
 

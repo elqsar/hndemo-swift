@@ -21,18 +21,6 @@ class Story: NSObject {
     var url: String?
     var score: Int?
     var title: String?
-    
-    class func mapFromJson(json: JSON) -> Story {
-        var story = Story()
-        story.id = json["id"].intValue
-        story.by = json["by"].stringValue
-        story.score = json["score"].intValue
-        story.title = json["title"].stringValue
-        story.url = json["url"].stringValue
-        story.kids = json["kids"].arrayObject as? [Int]
-        story.type = json["type"].stringValue
-        return story
-    }
 }
 
 

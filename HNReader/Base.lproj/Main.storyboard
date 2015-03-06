@@ -64,7 +64,14 @@
                             <outlet property="delegate" destination="KLY-gn-hMb" id="LIv-CK-TUp"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Top News" id="wGd-Pc-zLk"/>
+                    <navigationItem key="navigationItem" title="Top News" id="wGd-Pc-zLk">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="mSi-0k-ayS">
+                            <color key="tintColor" red="0.99215686274509807" green="0.99215686274509807" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="refresh" destination="KLY-gn-hMb" id="co6-1n-HmP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4m5-5R-xcO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -26,8 +26,9 @@ class HNListTableViewController: UITableViewController, FirebaseHelperDelegate {
         root.loadTopStories()
     }
     
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
+    @IBAction func refresh() {
+        news.removeAll(keepCapacity: false)
+        root.loadTopStories()
     }
 
     // MARK: - Table view data source
